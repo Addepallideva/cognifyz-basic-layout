@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .gallery-item {
+            padding: 5px; /* Space between images */
+        }
+        .gallery-item img {
+            width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 5px; /* Rounded corners */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="my-4 text-center">Responsive Image Gallery</h1>
+    <div class="row">
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <a href="https://via.placeholder.com/800x600" target="_blank">
+                <img src="image1.jpeg" alt="Image 1">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <a href="https://via.placeholder.com/800x600" target="_blank">
+                <img src="image2.png" alt="Image 2">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <a href="https://via.placeholder.com/800x600" target="_blank">
+                <img src="image3.png" alt="Image 3">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <a href="https://via.placeholder.com/800x600" target="_blank">
+                <img src="image4.jpeg" alt="Image 4">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <a href="https://via.placeholder.com/800x600" target="_blank">
+                <img src="image5.jpeg" alt="Image 5">
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 gallery-item">
+            <a href="https://via.placeholder.com/800x600" target="_blank">
+                <img src="image6.png" alt="Image 6">
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
